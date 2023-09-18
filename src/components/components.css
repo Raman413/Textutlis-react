@@ -1,0 +1,89 @@
+/* css for Text Area */
+.primarybutton{
+    margin: 0px 5px;
+    background-color:lightseagreen;
+    color: black;
+    font-weight: bolder;
+    border-radius: 25px;
+    transition: all ease 0.5s;
+}
+.primarybutton:hover{
+    box-shadow: 5px 5px 0px black;
+}
+
+/* Css for navigation bar */
+.form-switch label{
+    color: white;
+    margin-right: 25px;
+}
+#flexSwitchCheckDefault{
+    cursor: pointer;
+}
+.dark{
+    background-color: rgb(26, 24, 24);
+    color: white;
+
+    .primarybutton:hover{
+        box-shadow: 5px 5px 0px gray;
+    }
+    /* For About component */
+    .card{
+        background-color: black;
+        color: white;
+    }
+    .banner{
+        filter: invert(100%);
+    }
+}
+.light{
+    background-color: white;
+    color: black;
+}
+/* Css for colour palatte buttons */
+.colorpalatte{
+    margin: 0px 5px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+.colorpalatte::after{
+    box-shadow: 2px 2px ease gray;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+/* Css for setting modes */
+.redmode{
+    background-color: red;
+    color: white;
+}
+.greenmode{
+    background-color: rgb(77, 227, 77);
+    color: white;
+}
+.bluemode{
+    background-color: rgb(53, 136, 230);
+    color: white;
+}
+.yellowmode{
+    background-color: rgba(240, 246, 80, 0.914);
+    color: white;
+}
+/* Css for About section */
+.card{
+    display: flex;
+    max-width: 50vw;
+    margin: 0 250px;
+}
+.banner{
+    max-height: 70vh;
+}
